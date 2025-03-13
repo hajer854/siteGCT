@@ -32,6 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     echo "Inscription réussie!";
     header("Location: index.html");
-    exit(); // Assurez-vous de bien terminer le script après redirection
+    exit(); 
 }
 ?>
